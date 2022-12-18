@@ -9,6 +9,10 @@ ion-toolbar{
 ion-content{
 
     #header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
     h1{
         font-weight: 700;
         font-size: 26px;
