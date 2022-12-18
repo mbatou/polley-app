@@ -1,9 +1,32 @@
-<ion-header>
+<ion-header class="ion-no-border">
   <ion-toolbar>
-    <ion-title>signup</ion-title>
+    <ion-buttons slot="start">
+      <ion-button color="warning">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/polley-app/src/app/signup" color="warning"
+        >Login</ion-button
+      >
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <h1>Create your account</h1>
 
+  <form id="form">
+    <app-input placeholder="Your name"></app-input>
+    <app-input placeholder="Your last name"></app-input>
+    <app-input placeholder="Email"></app-input>
+    <app-input type="password" placeholder="Password"></app-input>
+    <app-input type="password" placeholder="Confirm password"></app-input>
+    <ion-button type="submit" color="warning " expand="block" shape="round"
+      >Join the team</ion-button
+    >
+  </form>
+  <p>
+    By pressing 'Join the team' you agree to <br />our terms and conditions.
+  </p>
 </ion-content>
