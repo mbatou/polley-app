@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'Polley-app',
+  appName: 'polley-app',
   webDir: 'www',
   bundledWebRuntime: false
 };

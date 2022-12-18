@@ -1,5 +1,5 @@
 {
-  "name": "Polley-app",
+  "name": "polley-app",
   "integrations": {
     "capacitor": {}
   },
