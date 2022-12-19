@@ -12,4 +12,11 @@ export class HomePage implements OnInit {
   ngOnInit() {
   }
 
+  slidesOptions = {
+    slidesPerView:1.5
+    
+  }
+
+  
+
 }
